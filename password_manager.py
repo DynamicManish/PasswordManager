@@ -6,12 +6,14 @@ def passwordSecure(password):
     return password
 
 password = input('Please provide your password here: ').strip()
-decision = input('Do you want to include UPPERCASE letters?(y/n): ').strip()
+decision = input('Do you want to include UPPER/LOWER case letters?("y for UPPER/n for lower",else will remain unchanged): ').strip()
 
 if decision == 'y':
     password = password.upper()
     print(f"Your new password is {passwordSecure(password)}")
 
-else:
+elif decision == 'n':
     password = password.lower()
+    print(f"Your new password is {passwordSecure(password)}")
+else:
     print(f"Your new password is {passwordSecure(password)}")
