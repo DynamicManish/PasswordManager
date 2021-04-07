@@ -8,7 +8,8 @@ The secure codes are the codes that I have given in the form of a tuple, which c
 I am making a few changes in it, in the 'y' and 'n' part, if the user enters anything rather than these letters, it will not affect the case of password
 And the new code looks like this
 
-![image](https://user-images.githubusercontent.com/67814686/113668760-56e2cc00-96d0-11eb-90c3-ab218a05bcc3.png)
+![image](https://user-images.githubusercontent.com/67814686/113823929-d211b400-979c-11eb-980b-2ec8029f2e93.png)
+
 
 I hope you recived some value from this
 
